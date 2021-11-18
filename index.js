@@ -20,8 +20,8 @@ async function run() {
         const serviceCollection = database.collection("serviceDetail")
         const usersCollection = database.collection("users");
         const addOrderCollection = database.collection("addOrder");
-        const user = { name: 'mahiya mahi', email: 'mahi@gmail.com', descriptio: 'lorem20' }
-        serviceCollection.insertOne(user)
+        // const user = { name: 'mahiya mahi', email: 'mahi@gmail.com', descriptio: 'lorem20' }
+        // serviceCollection.insertOne(user)
 
         //Get API
         app.get('/services', async (req, res) => {
